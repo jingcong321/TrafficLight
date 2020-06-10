@@ -35,15 +35,15 @@
         android:layout_width="92dp"
         android:layout_height="46dp"
 
-        android:layout_marginStart="28dp"
-        android:layout_marginLeft="28dp"
         android:ems="10"
         android:hint="綠燈秒數"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/gl3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.519" />
 
     <EditText
         android:id="@+id/editTextTextPersonName2"
@@ -52,25 +52,26 @@
         android:ems="10"
         android:hint="黃燈秒數"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/gl3"
-        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName3"
-        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.519" />
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
         android:layout_width="92dp"
         android:layout_height="46dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
         android:ems="10"
         android:hint="紅燈秒數"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/gl3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.519" />
 
     <TextView
         android:id="@+id/textView"
